@@ -2,14 +2,17 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='items-center justify-between flex px-10 py-3 bg-blue-950 shadow-amber-50'>
-      <h1 className='text-2xl uppercase text-gray-100 tracking-wider'>Ananya</h1>  
-      <div className='justify-between'>
-      <a className='text-xm px-5 py-2 text-gray-300 m-5 rounded-lg bg-gray-900'>About</a>
-      <a className='text-xm px-5 py-2 rounded-2xl text-gray-300 m-5'>Projects</a>
-      <a className='text-xm px-5 py-2 rounded-2xl text-gray-300 m-5'>Contact</a>
+    <div className='' >
+    <div className='items-center justify-between flex px-6 py-4 text-center'>
+      <h1 className='text-[15px] text-[#5d3f99] font-bold'>Ananya.</h1>  
+      <div className='justify-between text-lg font-medium flex items-center cursor-pointer'>
+      <a className='px-5 py-1 rounded-xl text-[#783eed] hover:bg-rose-100 hover:text-violet-700'>About</a>
+      <a className='px-5 py-1 rounded-xl text-[#783eed] hover:bg-rose-100 hover:text-violet-700'>Projects</a>
+      <a className='px-5 py-1 rounded-xl text-[#783eed] hover:bg-rose-100 hover:text-violet-700'>Contact</a>
       </div>  
     </div>
+    </div>
+
   )
 }
 
