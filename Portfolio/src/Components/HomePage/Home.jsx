@@ -4,7 +4,7 @@ import HeroSection from './HeroSection'
 
 const Home = () => {
   return (
-    <div className='bg-neutral-50 h-screen w-full'>
+    <div className=' h-screen w-full'>
       <Navbar/>
       <HeroSection/>
     </div>

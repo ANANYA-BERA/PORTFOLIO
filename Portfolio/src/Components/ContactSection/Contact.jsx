@@ -9,7 +9,7 @@ export default function Contact() {
       <form action="#" method="POST" className="mx-auto mt-5 flex flex-col justify-center">
         
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm/6 font-semibold text-violet-600">
+            <label htmlFor="name" className="block text-sm/6 font-semibold text-[#212842]">
               Full Name
             </label>
             <div className="mt-1">
@@ -18,7 +18,7 @@ export default function Contact() {
                 name="fullname"
                 type="text"
                 placeholder='Your name'
-                className="block w-full rounded-md bg-purple-100 px-3.5 py-1 text-base text-violet-600 outline-1 -outline-offset-1 outline-purple-600 placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-purple-300"
+                className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
               />
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function Contact() {
           
           
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm/6 font-semibold text-violet-600">
+            <label htmlFor="email" className="block text-sm/6 font-semibold text-[#212842]">
               Email
             </label>
             <div className="mt-1">
@@ -36,13 +36,13 @@ export default function Contact() {
                 type="email"
                 autoComplete="email"
                 placeholder='example@gmail.com'
-                className="block w-full rounded-md bg-purple-100 px-3.5 py-1 text-base text-violet-600 outline-1 -outline-offset-1 outline-purple-600 placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-purple-300"
-              />
+                className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
+               />
             </div>
           </div>
           
           <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm/6 font-semibold text-violet-600">
+            <label htmlFor="message" className="block text-sm/6 font-semibold text-[#212842]">
               Message
             </label>
             <div className="mt-1">
@@ -50,7 +50,7 @@ export default function Contact() {
                 id="message"
                 name="message"
                 rows={2}
-                className="block w-full rounded-md bg-purple-100 px-3.5 py-1 text-base text-violet-600 outline-1 -outline-offset-1 outline-purple-600 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-purple-300"
+               className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
                 defaultValue={''}
               />
             </div>
@@ -60,7 +60,7 @@ export default function Contact() {
         <div className="mt-8 flex justify-center">
           <button
             type="submit"
-            className=" bg-rose-400 text-white text-lg font-semibold rounded-xl py-2 px-10 transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110"
+            className="mb-5 bg-rose-400 text-white text-lg font-semibold rounded-xl py-2 px-10 transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110"
           >
             Let's talk
           </button>

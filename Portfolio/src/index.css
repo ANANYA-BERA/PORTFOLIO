@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-    background-color:oklch(98.5% 0 0) ;
+    background-color: oklch(98% 0.016 73.684);
 }
 
 
@@ -15,7 +15,7 @@ body{
     color:azure;
     font-size: 18px;
     font-weight: 600;
-    background: linear-gradient(to right,  #f0637b,#f8536f, #fd4866);
+    background: linear-gradient(to right,  #ea4e68,#f8536f, #fd4866);
 }
 
 
@@ -23,7 +23,7 @@ body{
 .HText{
     font-size: 55px;
     font-weight: 900;
-    color: #7529f7;
+    color: #212842;
     margin-bottom: 1.5rem;
 }
 
