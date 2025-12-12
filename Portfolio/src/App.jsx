@@ -6,7 +6,24 @@ import Contact from './Components/ContactSection/Contact'
 import Footer from './Footer'
 
 
-const App = () => {
+
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,   // animation duration
+      once: false,       // animation happens only once
+      easing: "ease-in-out",
+      mirror:true,
+    });
+    
+  }, []);
+
+
+
   return (
     <div>
       <Home/>

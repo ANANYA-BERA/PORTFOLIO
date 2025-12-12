@@ -2,7 +2,7 @@ import { ChevronDownIcon } from '@heroicons/react/16/solid'
 
 export default function Contact() {
   return (
-    <div className="isolate bg-rose-50 px-85 py-6 m-10 rounded-3xl shadow">
+    <div className="isolate bg-rose-50 px-85 py-6 m-20 rounded-3xl shadow" data-aos='flip-down'>
       <div className=" text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-rose-500 ">Contacts </h2>
       </div>
