@@ -10,12 +10,13 @@ import Contact from './Components/ContactSection/Contact'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from './Navbar'
 
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 800,   // animation duration
-      once: false,       // animation happens only once
+      duration: 800,  
+      once: false,      
       easing: "ease-in-out",
       mirror:true,
     });
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div>
+      <Navbar />
       <Home/>
       <About />
       <Projects />

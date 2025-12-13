@@ -1,75 +1,15 @@
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import Footer from './Footer'
+import ContactForm from './ContactForm'
+import ContactText from './ContactText'
 
 export default function Contact() {
   return (
-    <div className=' bg-rose-50 pt-20'>
-    <div className="isolate bg-[#fff7e6] px-85 py-6 mx-20 rounded-3xl shadow" data-aos='flip-down'>
-      <div className=" text-center">
-        <h2 className="text-2xl font-semibold tracking-tight text-rose-500 ">Contacts </h2>
+    <div className=' bg-[#9f8e81] p-10 font-mono'>
+      <div className=' flex flex-row pb-10 gap-30 items-center'>
+        <ContactText />
+        <ContactForm />
       </div>
-      <form action="#" method="POST" className="mx-auto mt-5 flex flex-col justify-center">
-        
-          <div className="sm:col-span-2">
-            <label htmlFor="name" className="block text-sm/6 font-semibold text-[#212842]">
-              Full Name
-            </label>
-            <div className="mt-1">
-              <input
-                id="fullname"
-                name="fullname"
-                type="text"
-                placeholder='Your name'
-                className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
-              />
-            </div>
-          </div>
-          
-          
-          
-          <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm/6 font-semibold text-[#212842]">
-              Email
-            </label>
-            <div className="mt-1">
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                placeholder='example@gmail.com'
-                className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
-               />
-            </div>
-          </div>
-          
-          <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm/6 font-semibold text-[#212842]">
-              Message
-            </label>
-            <div className="mt-1">
-              <textarea
-                id="message"
-                name="message"
-                rows={2}
-               className="block w-full rounded-md bg-orange-50 px-3.5 py-1 text-base text-[#212842] outline-1 -outline-offset-1 outline-[#212842] placeholder:text-stone-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#767d96]"
-                defaultValue={''}
-              />
-            </div>
-          </div>
-          
-        
-        <div className="mt-8 flex justify-center">
-          <button
-            type="submit"
-            className="mb-5 bg-rose-400 text-white text-lg font-semibold rounded-xl py-2 px-10 transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110"
-          >
-            Let's talk
-          </button>
-        </div>
-      </form>
-    </div>
-
     <Footer />
     </div>
 
