@@ -2,9 +2,9 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className='w-1/2 py-10 px-20'>
+    <div className='w-1/2 py-10 px-20' >
       <form>
-        <div  className='flex flex-row gap-5 border-b-[1.5px] border-[#e8d8c3] mb-8'>
+        <div data-aos='fade-up' className='flex flex-row gap-5 border-b-[1.5px] border-[#e8d8c3] mb-8'>
           <label className='text-[#fff8ef] pb-1 text-xm'>
             Full Name
           </label>
@@ -16,7 +16,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <div  className='flex flex-row gap-5 border-b-[1.5px] border-[#e8d8c3] mb-8'>
+        <div data-aos='fade-up' className='flex flex-row gap-5 border-b-[1.5px] border-[#e8d8c3] mb-8'>
           <label className='text-[#fff8ef] pb-1 text-xm'>
             Email
           </label>
@@ -28,7 +28,7 @@ const ContactForm = () => {
           />
         </div>
 
-        <div  className='flex flex-row gap-5 border-b-2 border-[#e8d8c3] mb-8'>
+        <div data-aos='fade-up' className='flex flex-row gap-5 border-b-2 border-[#e8d8c3] mb-8'>
           <label className='text-[#fff8ef] pb-1 text-xm'>
             Message
           </label>
@@ -41,7 +41,7 @@ const ContactForm = () => {
         </div>
 
         <div className='ml-63 mt-15'>
-        <button className='btn bg-[#fff7f2] text-[#31231b] tracking-tight transition durstion-300 ease-in-outhover:-translate-y-2 hover:scale-120 '>Send Message</button>
+        <button data-aos='zoom-in' className='btn bg-[#fff7f2] text-[#31231b] tracking-tight transition durstion-300 ease-in-outhover:-translate-y-2 hover:scale-120 '>Send Message</button>
         </div>
       </form>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutText from './AboutText'
-import Education from './education'
+import Education from './Education'
 import Skills from './Skills'
 
 const About = () => {
