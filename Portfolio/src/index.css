@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
+
 body{
-    background-color: oklch(98% 0.016 73.684);
+    background-color: #fff7e6;
+    /* background-color: oklch(98% 0.016 73.684); */
 }
 
 
@@ -22,7 +24,7 @@ body{
 
 .HText{
     font-size: 55px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #212842;
     margin-bottom: 1.5rem;
 }

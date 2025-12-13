@@ -3,7 +3,7 @@ import Home from './Components/HomePage/Home'
 import About from './Components/AboutSection/About'
 import Projects from './Components/ProjectSection/Projects'
 import Contact from './Components/ContactSection/Contact'
-import Footer from './Footer'
+
 
 
 
@@ -30,7 +30,7 @@ function App() {
       <About />
       <Projects />
       <Contact/>
-      <Footer />
+
     </div>
   )
 }

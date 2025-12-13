@@ -1,8 +1,10 @@
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
+import Footer from './Footer'
 
 export default function Contact() {
   return (
-    <div className="isolate bg-rose-50 px-85 py-6 m-20 rounded-3xl shadow" data-aos='flip-down'>
+    <div className=' bg-rose-50 pt-20'>
+    <div className="isolate bg-[#fff7e6] px-85 py-6 mx-20 rounded-3xl shadow" data-aos='flip-down'>
       <div className=" text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-rose-500 ">Contacts </h2>
       </div>
@@ -67,5 +69,10 @@ export default function Contact() {
         </div>
       </form>
     </div>
+
+    <Footer />
+    </div>
+
+
   )
 }

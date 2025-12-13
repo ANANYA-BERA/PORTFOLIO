@@ -5,7 +5,7 @@ import Skills from './Skills'
 
 const About = () => {
   return (
-    <div className='h-screen  px-13 py-4'>
+    <div className='px-13 py-8 font-serif'>
       <AboutText />
       <div className='flex gap-10'>
         <Education />

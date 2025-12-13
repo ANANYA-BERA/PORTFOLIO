@@ -4,7 +4,7 @@ import HeroRight from './HeroRight'
 
 const HeroSection = () => {
   return (
-    <div className='flex justify-between px-20 py-10 gap-10 h-[80vh] items-center'>
+    <div className='flex px-5 py-20 gap-10 items-center'>
       <HeroLeft/>
       <HeroRight/>
     </div>
