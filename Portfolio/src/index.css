@@ -14,11 +14,11 @@ body{
     width: fit-content;
     padding: 5px 15px;
     border-radius: 8px;
-    color:azure;
+    /* color:azure; */
     font-size: 18px;
     font-weight: 600;
     /* background: linear-gradient(to right,  #ea4e68,#f8536f, #fd4866); */
-    background-color: #806C56;
+    /* background-color: #856551; */
 }
 
 
@@ -27,7 +27,7 @@ body{
     font-size: 55px;
     font-weight: bolder;
     /* color: #212842; */
-    color: #645447;
+    color: #856551;
     margin-bottom: 1.5rem;
 }
 

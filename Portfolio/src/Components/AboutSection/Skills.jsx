@@ -1,7 +1,7 @@
 const Skills = () => {
 
   return (
-    <div className="w-1/2 px-5 py-8 bg-[#f2e9df] rounded-2xl shadow  flex" data-aos='slide-up' >
+    <div className="w-1/2 px-5 py-8 bg-[#fff7f2] rounded-2xl shadow  flex" data-aos='slide-up' >
       <div className="flex gap-25 items-center">
         <div className="md:col-span-1 flex items-start md:items-center ">
           <h2 className="text-xl font-semibold text-[#593F2C] px-5">Skills</h2>

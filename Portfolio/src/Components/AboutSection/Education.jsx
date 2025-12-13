@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div className='px-10 py-3 w-1/2 flex flex-row gap-25 rounded-2xl bg-[#f2e9df] items-center shadow' data-aos='slide-up'>
+    <div className='px-10 py-3 w-1/2 flex flex-row gap-25 rounded-2xl bg-[#fff7f2] items-center shadow' data-aos='slide-up'>
         
         <h2 className='text-xl font-semibold text-[#593F2C]'>Education</h2>
             <div className='left-0' data-aos='slide-right'>
