@@ -2,12 +2,13 @@
 
 
 body{
-    background-color: #fff6f3;
+    background-color: #f9f4f2;
     /* background-color: oklch(98% 0.016 73.684); */
 }
 
 
 .btn{
+    margin-top: 1rem;
     cursor: pointer;
     text-align: center;
     display: flex;
@@ -27,7 +28,7 @@ body{
     font-size: 55px;
     font-weight: bolder;
     /* color: #212842; */
-    color: #856551;
+    color: #764c62;
     margin-bottom: 1.5rem;
 }
 
