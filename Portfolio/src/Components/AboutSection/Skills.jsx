@@ -1,21 +1,16 @@
 const Skills = () => {
 
   return (
-    <div className="w-1/2 px-5 py-8 bg-[#fff7f2] rounded-2xl shadow  flex" data-aos='slide-up' >
-      <div className="flex gap-25 items-center">
-        <div className="md:col-span-1 flex items-start md:items-center ">
-          <h2 className="text-xl font-semibold text-[#593F2C] px-5">Skills</h2>
-        </div>
-        <div className=" grid grid-cols-2 gap-5" data-aos='zoom-in'>
-            <p className="skill transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110 ">HTML</p>
-            <p className="skill transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110 ">CSS</p>
-            <p className="skill transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110 ">JavaScript</p>
-            <p className="skill transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110 ">React</p>
-            <p className="skill transition durstion-300 ease-in-outhover:-translate-y-1 hover:scale-110 ">TailwindCSS</p>
-        </div>
-
-        
-        
+    <div className="flex flex-col items-center py-8" >
+      
+      <h2 className="text-3xl text-[#520309] font-bold">Skills</h2>
+      
+      <div className="flex gap-10 py-10 text-[#fff4e4] tracking-wider">
+        <p data-aos='fade-up' className="skill transition durstion-600 ease-in-out hover:-translate-y-3 hover:scale-120">HTML</p>
+        <p data-aos='fade-up' className='skill transition durstion-600 ease-in-out hover:-translate-y-3 hover:scale-120'>CSS3</p>
+        <p data-aos='fade-up' className="skill transition durstion-600 ease-in-out hover:-translate-y-3 hover:scale-120">JavaScript</p>
+        <p data-aos='fade-up' className='skill transition durstion-600 ease-in-out hover:-translate-y-3 hover:scale-120'>React</p>
+        <p data-aos='fade-up' className="skill transition durstion-600 ease-in-out hover:-translate-y-3 hover:scale-120">Tailwind CSS</p>
       </div>
     </div>
   );
