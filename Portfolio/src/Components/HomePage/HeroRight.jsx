@@ -9,9 +9,11 @@ const HeroRight = () => {
         <h1 className=' text-[#594333] text-6xl font-bold font-serif tracking-tighter py-5'> <span className='text-[#520309]'>Front</span>-end Developer</h1>
          <button data-aos='fade-up' className='btn text-[#f9f4f2] bg-[#884841]  transition durstion-300 ease-in-out hover:-translate-y-2 hover:scale-120'>Dounload CV</button>
       </div>
+
       <div>
         <Socials />
       </div>
+      
     </div>
   )
 }

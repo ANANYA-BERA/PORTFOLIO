@@ -11,8 +11,6 @@ const Navbar = () => {
       <a className='px-5 py-1 rounded-xl hover:text-[#360005]'>Contact</a>
       </div>  
     </div>
-    
-
   )
 }
 

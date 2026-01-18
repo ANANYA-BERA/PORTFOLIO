@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa";
 
-
 const Socials = () => {
   return (
     <div className='text-xl flex flex-col gap-10 pr-3 text-[#884841]' data-aos='slide-left'>

@@ -4,9 +4,6 @@ import About from './Components/AboutSection/About'
 import Projects from './Components/ProjectSection/Projects'
 import Contact from './Components/ContactSection/Contact'
 
-
-
-
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,8 +19,6 @@ function App() {
     });
     
   }, []);
-
-
 
   return (
     <div>
